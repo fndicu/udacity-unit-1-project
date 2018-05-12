@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css?family=Abel');
+*{
+	font-family: abel, opensans;
+}
+
+.container{
+	margin: 3em;
+}
+
+img{
+	width: 100%;
+}
+
+.project h3{
+	text-align: center;
+    font-size: 2em;
+    margin: 0;
+}
+
+.project p{
+	text-align: center;
+}
+
+header{
+	text-align: right;
+	margin: 2em 0em;
+	border-bottom: 5px solid #272936;
+	display: flex;
+	justify-content: space-between;
+}
+
+.hero-image{
+	width: 100%;
+}
+
+.hero-image img{
+	width: 100%;
+}
+
+#featured-work{
+	color: #383838;
+	margin-top: 2em;
+}
+
+#title > h1 {
+   font-size: 3.25em;
+   margin: 0;
+}
+
+#title > h4{
+   font-size: 1.5em;
+   margin: 0;
+}
+
+img {
+	 width: 330px;
+}
+
+#logo > img{ 
+	width: 150px;
+}
+
+#my-work{ 
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+ }
+
+/* Mobile Styling */
+
+@media only screen and (max-width: 769px){
+	#title{
+		font-size: .75em;
+	}
+
+	.container{
+		margin: 0;
+	}
+
+	#my-work{
+		width:100%;
+	}
+	
+	.project img{
+		width:100%;
+	} 
+}
